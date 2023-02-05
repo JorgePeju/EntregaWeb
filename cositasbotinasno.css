@@ -40,13 +40,13 @@
   }
 
   nav ul li:hover {
-    background: #000000;
+    background: #32456d;
   }
 
   nav ul li a {
     display: block;
     padding: 30px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
 
@@ -76,9 +76,10 @@
   h1 {
     font-size: 100px;
     margin: 80px;
+    color: rgb(86, 86, 145);
   }
 
-  .caja {
+  .caja1, .caja2 {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -105,7 +106,6 @@
 
   h2 {
     font-size: 80px;
-    border: 3px solid white;
     align-items: center;
     margin: 60px auto;
     padding: 100px auto;
@@ -113,9 +113,20 @@
 
   a {
     text-decoration: none;
+    color: aqua;
   }
 
   b em {
-    color: blue;
+    color: rgb(255, 0, 43);
    
+  }
+
+  .video1 {
+    margin-left: 300px;
+  }
+
+  .intro2 {
+    font-size: 30px;
+    width: 40%!important;
+    padding-top: 120px;
   }
