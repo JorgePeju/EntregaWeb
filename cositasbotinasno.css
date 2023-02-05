@@ -68,7 +68,7 @@
   max-width: auto;
   }
 
-  h1, h2 {
+  h1, h2, h3 {
   display: flex;
   justify-content: space-around;
   }
@@ -129,4 +129,9 @@
     font-size: 30px;
     width: 40%!important;
     padding-top: 120px;
+  }
+
+  h3 {
+    font-size: 50px;
+    margin: 50px auto;
   }
