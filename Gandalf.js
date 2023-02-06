@@ -1,16 +1,12 @@
 let miembros = ["Frodo", "Sam", "Pippin", "Merry", "Aragorn", "Legolas", "Gimly", "Boromir"];
 
-console.log(miembros);
-
-console.log(miembros.length);
-
-let primero = miembros[7]
+let primero = miembros[0];
 
 let ultimo = miembros[miembros.length - 1];
 
 function add(){
     alert("Se ha añadido a "+ miembros[miembros.length-1]);
-    let nuevaLongitud = miembros.push(miembros);
+    miembros.push(miembros);
     console.log(miembros);
 }
 
