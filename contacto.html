@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head> 
-      
-    <title>Contacto</title>
-     <link rel="stylesheet" type="text/css" href="cositasbotinasno.css"/>
-     <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Roboto:wght@100;400&family=Space+Mono&display=swap" rel="stylesheet">
-     <script src="Gandalf.js"></script>
 
-  </head>
+<head>
 
-  <body>
+  <title>Contacto</title>
+  <link rel="stylesheet" type="text/css" href="cositasbotinasno.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Roboto:wght@100;400&family=Space+Mono&display=swap"
+    rel="stylesheet">
+  <script src="Gandalf.js"></script>
 
-   <header>
-     <div class="logo">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
       <img src="https://gandalf.design/wp-content/uploads/2021/10/dark-e1633358645159.png" style="width: 40%">
-     </div>
-     
-     <div class="nav">
-          <nav>
-           <ul>
-            <li><a href="index.html"><b>Inicio</b></a></li>
-            <li><a href="biografía.html"><b>Biografía</b></a></li>
-            <li><a href="portfolio.html"><b>Galería</b></a></l>
-            <li><a href="contacto.html"><b>Contacto</b></a></li>
-           </ul>
-          </nav> 
-     </div>
-    </header>
+    </div>
 
-		<h3>Espera mi llegada con la primera luz del quinto día  al alba, mira al este</h3>
-    <hr>
-    <div class="form">
-      <form action="/contacto.html" method="POST">
-        <section class="nombref">
-         <label for="username">Nombre</label>
-         <br>
-         <input type="text" name="username" id="username"> 
-        </section>
-  
-        <section class="comentf">
-          <label class="comentf1">Exponga por qué necesita a Gandalf</label>
-          <br>
-          <textarea id="comentf1" name="comentf1" rows="5" cols="50"></textarea>
-        </section>
-  
-        <section class="motiv">
-          <p>Si no puede escribir, eliga sus motivos:</p>
-          <br>
-          <input type="checkbox" name="motiv1" id="Sauron" value="Ha visto a Sauron">
-          <label for="Sauron">Ha visto a Sauron</label>
-          <br>
-          <input type="checkbox" name="motiv1" id="Rohan" value="Atacan a Rohan">
-          <label for="Rohan">Atacan a Rohan</label>
-          <br>
-          <input type="checkbox" name="motiv1" id="anillo" value="Ha encontrado el anillo único">
-          <label for="anillo">Ha encontrado el anillo único</label>
-        </section>
-  
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a href="index.html"><b>Inicio</b></a></li>
+          <li><a href="biografía.html"><b>Biografía</b></a></li>
+          <li><a href="portfolio.html"><b>Galería</b></a></l>
+          <li><a href="contacto.html"><b>Contacto</b></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <h3>Espera mi llegada con la primera luz del quinto día al alba, mira al este</h3>
+  <hr>
+  <div class="form">
+    <form action="/contacto.html" method="POST">
+      <div class="nombref">
+        <label for="username">Nombre</label>
         <br>
-  
-        <section>
-          <p>Haga click para añadir o quitar miembros de la compañía que acompañarán a Gandalf</p>
-         <div class="boton">
-         
+        <input type="text" name="username" id="username">
+      </div>
+
+      <div class="comentf">
+        <label class="comentf1">Exponga por qué necesita a Gandalf</label>
+        <br>
+        <textarea id="comentf1" name="comentf1" rows="5" cols="50"></textarea>
+      </div>
+
+      <div class="motiv">
+        <p>Si no puede escribir, eliga sus motivos:</p>
+        <br>
+        <input type="checkbox" name="motiv1" id="Sauron" value="Ha visto a Sauron">
+        <label for="Sauron">Ha visto a Sauron</label>
+        <br>
+        <input type="checkbox" name="motiv1" id="Rohan" value="Atacan a Rohan">
+        <label for="Rohan">Atacan a Rohan</label>
+        <br>
+        <input type="checkbox" name="motiv1" id="anillo" value="Ha encontrado el anillo único">
+        <label for="anillo">Ha encontrado el anillo único</label>
+      </div>
+
+      <br>
+
+      <div>
+        <p>Haga click para añadir o quitar miembros de la compañía que acompañarán a Gandalf</p>
+        <div class="boton">
+
           <button onclick="add();">Añadir</button>
           <button onclick="del();">Borrar</button>
           <br>
           <input type="submit">
         </div>
-      </section>
-       </form>
-    </div>
- 
+      </div>
+    </form>
+  </div>
+
 </body>
 
 </html>
