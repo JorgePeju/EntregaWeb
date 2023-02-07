@@ -100,7 +100,8 @@ h1 {
 }
 
 .img1 {
-  margin-right: 20px;
+  margin-right: 2%;
+  margin-left: -2%;
 }
 
 .img3 {
@@ -173,6 +174,7 @@ h3 {
 
 .biog3 {
   margin-top: -15px;
+  margin-right: 3%;
 }
 
 .biog3 p {
