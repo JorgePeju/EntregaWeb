@@ -60,7 +60,8 @@ footer {
 h1,
 h2,
 h3,
-.form {
+.form
+.form div{
   display: flex;
   justify-content: space-around;
 }
@@ -135,7 +136,7 @@ a {
   color: aqua;
 }
 
-a:active {
+.intro a:active {
   border: 2px solid #f5f5f5;
   padding: 2px
 }

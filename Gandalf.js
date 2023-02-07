@@ -1,4 +1,4 @@
-var miembros=["Frodo", "Sam", "Pippin", "Merry", "Aragorn", "Legolas", "Gimly", "Boromir"];
+let miembros=["Frodo", "Sam", "Pippin", "Merry", "Aragorn", "Legolas", "Gimly", "Boromir"];
 
 console.log(miembros);
 
@@ -10,13 +10,16 @@ let ultimo = miembros[miembros.length - 1];
 
 
 function add(){
-    alert("Se ha añadido a "+ miembros[miembros.length-1]);
-    miembros.push("Nuevo Miembro");
+    alert("Se ha añadido a "+ miembros[miembros.length -1]);
+    let nuevaLongitud = miembros.push(miembros[miembros.length -1]);
     console.log(miembros);
 }
 
 function del(){
-    alert("Se ha eliminado a "+ miembros[miembros.length-1]);
+    alert("Se ha eliminado a "+ miembros[miembros.length -1]);
     ultimo = miembros.pop();
     console.log(miembros);
 }
+
+
+
